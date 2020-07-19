@@ -7,14 +7,50 @@
     </head>
     <style>
         
+        p.sty{
+            margin-left: 50px;
+            color: darkgreen;
+        }
+
+        article > p{  
+            color:red;
+        }
+
+        article p {
+            color: royalblue;
+        }
+
+        .test1{
+            color: lightpink;
+        }
+        .test2{
+            color:darkmagenta;
+        }
+
+        .fullscreen{
+            size: inherit;
+            height:fit-content;
+            width: fit-content;
+            background-color: lightgreen;
+        }
     </style>
     <body>
+        <div class="fullscreen">
         
         <h1>This is A Heading</h1>
         <h2>Subheading 1</h2>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+        <p class="test1 test2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
     
-        <h2>Subheading 2</h2>
-        <p>this is another paragraph</p>
+        <h2 class="sty">Subheading 2</h2>
+        <p class="sty">this is another paragraph</p>
+
+        <article>
+            <p>article > p class would be applied here as p is a direct child of article</p>
+            <p>paragraph 2</p>
+            <p>paragraph 3</p>
+            <div> <p>color royalblue will be applied to this paragraph as it is deep inside the article not nxt child of article</p> </div>
+        </article>
+
+    </div>
     </body>
 </html>

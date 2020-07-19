@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Pseudo Class Selector
+    </title>
+</head>
+<style>
+    li {
+        list-style: none;
+    }
+
+    a:link {
+        color: darkorange;
+        background-color: khaki;
+        border: 1px black;
+        text-align: center;
+        display: block;
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+
+    a:visited {
+        color: darkolivegreen;
+        background-color: khaki;
+        border: 1px black;
+        text-align: center;
+        display: block;
+        width: 200px;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+    }
+
+    a:hover {
+        background-color: violet;
+        color: whitesmoke
+    }
+
+    p:hover {
+        color: darkslategray;
+        background-color: lightgray;
+        border: 10px chocolate;
+        box-shadow: 0px 0px 10px grey;
+        ;
+    }
+
+    ul li:nth-child(4) {
+        font-style: oblique;
+    }
+
+    section div:nth-child(even){
+        background-color: gray;
+        width: 200px;
+        display: block;
+    }
+
+    section:hover div:nth-child(4){
+        font-size: 24px;
+    }
+</style>
+
+<body>
+
+    <h1>This is A Heading</h1>
+    <h2>Subheading 1</h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+        PageMaker including versions of Lorem Ipsum</p>
+
+    <h2>Subheading 2</h2>
+    <p>this is another paragraph</p>
+
+    <article>
+        <p>Paragraph 1</p>
+        <p>paragraph 2</p>
+        <p>paragraph 3</p>
+        <div>
+            <p>color royalblue will be applied to this paragraph as it is deep inside the article not nxt child of
+                article</p>
+        </div>
+    </article>
+
+
+    <ul>
+        <li><a href="index.html">index Page</a></li>
+        <li><a href="selector.html">selector example</a></li>
+        <li><a href="combined_selectors.html"> Combined Selector</a></li>
+        <li><a href="/">Pseudo Class Selector</a></li>
+        <li><a href="http://google.com">Google</a></li>
+    </ul>
+
+
+    <section>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+        <div>hello</div>
+    </section>
+
+</body>
+
+</html>
