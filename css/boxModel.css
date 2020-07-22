@@ -1,0 +1,24 @@
+body{
+    background-color: #ffffee;    
+    margin: 0px;
+}
+
+#box{
+    padding: 3px;
+    background-color: blue;
+    border: 3px solid black;
+}
+
+#content {
+    background-color: greenyellow;
+}
+h1{ 
+    margin-bottom: 30px;
+    margin-left: 8px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
