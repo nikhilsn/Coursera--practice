@@ -1,0 +1,44 @@
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  border: 1px lightslategray;
+  margin-bottom: 15px;
+}
+
+#p1 {
+  background-color: salmon;
+  height: 300px;
+  width: 300px;
+}
+#p2 {
+  background-color: #deb887;
+  height: 100px;
+  width: 100px;
+}
+
+
+@media (min-width: 1200px) {
+    #p1 {
+      width: 80%;
+    }
+  
+    #p2 {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width:1199px) {
+    #p1 {
+      width: 50%;
+    }
+  
+    #p2 {
+      width: 125px;
+      height: 125px;
+    }
+  }
+
+

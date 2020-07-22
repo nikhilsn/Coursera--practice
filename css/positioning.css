@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+div#container {
+  background-color:lightgrey;
+  position: relative;
+}
+
+p {
+  width: 50px;
+  height: 50px;
+
+  border: 1px, solid coral;
+  margin-bottom: 15px;
+}
+#p1 {
+  background-color: cornflowerblue;
+  position: relative;
+  top: 65px;
+  left: 65px;
+}
+#p2 {
+  background-color: cadetblue;
+  
+}
+#p3 {
+  background-color: cornsilk;
+  position: absolute;
+  top: 0px;
+
+}
+#p4 {
+  background-color:palevioletred;
+}
